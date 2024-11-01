@@ -1,0 +1,12 @@
+.home {
+  .form-create {
+    display: flex;
+    gap: 30px;
+  }
+
+  .submit-btn {
+    margin: 20px 0;
+    background-color: gray;
+    color: #fff;
+  }
+}

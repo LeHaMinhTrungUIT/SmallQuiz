@@ -1,0 +1,25 @@
+.quiz {
+  .question {
+    margin: 10px 0;
+  }
+
+  .choices {
+    display: flex;
+    gap: 20px;
+
+    .choice {
+      border-color: green;
+      color: green;
+    }
+
+    .highlighted {
+      color: #fff;
+      background-color: green;
+    }
+
+    .warning {
+      color: #fff;
+      background-color: red;
+    }
+  }
+}
