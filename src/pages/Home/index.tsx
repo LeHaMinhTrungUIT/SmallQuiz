@@ -106,7 +106,7 @@ const Home = () => {
       <>
         {questionDataList.map((q: Question, index: number) => (
           <Quiz
-            questionDataList={questionDataList}
+            questionData={q}
             setQuestionDataList={setQuestionDataList}
             order={index}
             disabled={false}

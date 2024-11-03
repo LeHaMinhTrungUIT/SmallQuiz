@@ -33,7 +33,7 @@ const Result = () => {
       <>
         {questionDataList.map((q: Question, index: number) => (
           <Quiz
-            questionDataList={questionDataList}
+            questionData={q}
             order={index}
             disabled={true}
             key={index}
